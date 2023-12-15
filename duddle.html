@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Duddle Jump</title>
+    <!--<script type="module" src="js/main.js"></script>-->
+    <script src="main.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./main.css"/>
+</head>
+<body>
+    <div class="game-container">
+        <div class="data">
+            <b style="float: left;font-family: fangsong;margin-top: 4px;">Sid:</b>
+            <input id="sid" placeholder="Game sid ( random )"/>
+            <div id="score"><b>0</b> Points</div>
+        </div>
+        <canvas id="drawer"></canvas>
+        <div class="move-buttons" style="display: none">
+            <div class="left" ></div>
+            <div class="right"></div>
+        </div>
+    </div>
+    <h2 id="end-game">Game over!</h2>
+    <div class="btn-container">
+        <button id="start-btn" class="action-btn">Start</button>
+        <button id="pause-btn" class="action-btn">Pause</button>
+    </div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectTasksOptions">
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="--language_out ECMASCRIPT_NEXT --warning_level VERBOSE --compilation_level ADVANCED --js &quot;$ContentRoot$/js/**.js&quot; --charset=UTF-8 --externs &quot;P:\Php\music.org.ru\closure\jquery.js&quot; &quot;P:\Php\music.org.ru\closure\gif.js&quot; --js_output_file &quot;$ContentRoot$/main.min.js&quot; --process_common_js_modules" />
+      <option name="checkSyntaxErrors" value="true" />
+      <option name="description" />
+      <option name="exitCodeBehavior" value="ALWAYS" />
+      <option name="fileExtension" value="js" />
+      <option name="immediateSync" value="true" />
+      <option name="name" value="Closure Compiler" />
+      <option name="output" value="$FileNameWithoutExtension$.min.js" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="$USER_HOME$/node_modules/google-closure-compiler-java/compiler.jar" />
+      <option name="runOnExternalChanges" value="true" />
+      <option name="scopeName" value="Project Files" />
+      <option name="trackOnlyRoot" value="true" />
+      <option name="workingDir" value="$FileDir$" />
+      <envs />
+    </TaskOptions>
+  </component>
+</project>
